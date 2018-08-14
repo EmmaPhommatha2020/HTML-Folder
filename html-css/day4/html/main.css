@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif');
+
+#sea_image {
+ width: 500px;
+}
+
+.image {
+  width: 300px; 
+  height: auto;
+  margin: 10px auto;
+  border: 2px dotted rgb(12, 241, 184);
+  padding: 10px;
+}
+
+img {
+  width: 100%;
+}
+
+.text {
+  display: inline-block;
+}
+
+h1, h2 {
+  text-align: center;
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  color: rgb(48, 107, 109);
+}
+
+.box_one {
+height: 5vh;
+width: 20vw;
+background-color: pink;
+float: left ;
+}
+
+.box_two {
+  height: 40px;
+  width: 100px;
+  background: url("https://images.unsplash.com/photo-1467296581482-7cc27c2500ba?ixlib=rb-0.3.5&s=ecc1c6679401019d1927837ee24556e9&auto=format&fit=crop&w=1808&q=80");
+  background-size: cover; 
+  float: right;
+  
+}
+
